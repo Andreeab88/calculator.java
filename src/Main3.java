@@ -35,7 +35,7 @@ op.getTheGreatherNumber(y);
 
 //5. If the user pressed number keys( from 0 to 9), the program will tell the number that is
 //pressed, otherwise, program will show "Not allowed”. (use a switch case for this)
-
+Scanner scanner=new Scanner(System.in);
         Scanner reader=new Scanner(System.in);
         System.out.println("5. Press a number: ");
         int z = reader.nextInt();
@@ -88,6 +88,50 @@ op.getTheGreatherNumber(y);
             System.out.println("The greatest number is: " + e + ("."));
 
 
+        //9. Se citeste un numar, sa se afiseze valoarea numarului citit.
+        System.out.println("9. Enter a number: ");
+        int s = reader.nextInt();
+        System.out.println("The value of number is: " + s + ("."));
 
+        //10. Se citeste un numar, sa se afiseze patratul acestuia (x^2).
+
+        System.out.println("10. Enter a number: ");
+       int r = reader.nextInt();
+       float t = r^2;
+        System.out.println("The square of number " + r + " is: " + t + ".");
+
+
+    //11. Se citesc doua numere, sa se afiseze rezultatul impartirii celor doua numere.
+
+        System.out.println("11. Enter first number: ");
+        double first= reader.nextDouble();
+        System.out.println("Enter second number: ");
+        int second= reader.nextInt();
+
+        System.out.println("The result of dividing the two numbers is: " + (first / second) + ("."));
+
+
+        //Se citesc patru numere, sa se afiseze maximul.
+
+        System.out.println("12. Enter 1 number:");
+        int m = reader.nextInt();
+        System.out.println("Enter 2 number:");
+        int n = reader.nextInt();
+        System.out.println("Enter 3 number:");
+        int k = reader.nextInt();
+        System.out.println("Enter 4 number:");
+        int l = reader.nextInt();
+        if ((m>n) && (m>k) && (m>l)) {
+            System.out.println("The maximum of the four numbers is:" + m);
+        } else if ((n>m) && (n>k) && (n>l)) {
+            System.out.println("The maximum of the four numbers is:" + n);
+        } else if ((k>m) && (k>n) && (k>l)) {
+            System.out.println("The maximum of the four numbers is:" + k);
+        } else System.out.println("The maximum of the four numbers is: " + l);
+
+
+   //.Se citesc trei numere, sa se afiseze minimul si maximul.
+
+//Se citesc doua numere, sa se ordoneze crescator.
     }}
 
