@@ -1,6 +1,6 @@
 package src;
 
-public class mainTemaLab9 {
+public class Main1 {
     public static void main(String[] args) {
         System.out.println("      TEMA LABORATOR 9:     ");
 

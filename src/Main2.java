@@ -2,9 +2,9 @@ package src;
 
 import java.util.Scanner;
 
-public class mainTemaLab10 {
+public class Main2 {
     public static void main(String[] args){
-        calculator calc = new calculator();
+        Calculator calc = new Calculator();
 
         //Tema lab.10:
         //1. Pentru exercitiile din clasa main() de data trecuta,

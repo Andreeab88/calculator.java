@@ -1,6 +1,6 @@
 package src;
 
-public class calculator {
+public class Calculator {
     public  double sum(int a, int b){
         return a+b;
     }
