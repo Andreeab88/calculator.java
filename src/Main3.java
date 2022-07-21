@@ -113,25 +113,56 @@ Scanner scanner=new Scanner(System.in);
 
         //Se citesc patru numere, sa se afiseze maximul.
 
-        System.out.println("12. Enter 1 number:");
+        System.out.println("12. Enter first number:");
         int m = reader.nextInt();
-        System.out.println("Enter 2 number:");
+        System.out.println("Enter the second number:");
         int n = reader.nextInt();
-        System.out.println("Enter 3 number:");
+        System.out.println("Enter the third number:");
         int k = reader.nextInt();
-        System.out.println("Enter 4 number:");
+        System.out.println("Enter the other number:");
         int l = reader.nextInt();
-        if ((m>n) && (m>k) && (m>l)) {
-            System.out.println("The maximum of the four numbers is:" + m);
-        } else if ((n>m) && (n>k) && (n>l)) {
-            System.out.println("The maximum of the four numbers is:" + n);
-        } else if ((k>m) && (k>n) && (k>l)) {
-            System.out.println("The maximum of the four numbers is:" + k);
-        } else System.out.println("The maximum of the four numbers is: " + l);
+        if ((m>=n) && (m>=k) && (m>=l)) {
+          System.out.println("The maximum of the four numbers is:" + m);
+       } else if ((n>=m) && (n>=k) && (n>=l)) {
+           System.out.println("The maximum of the four numbers is:" + n);
+        } else if ((k>=m) && (k>=n) && (k>=l)) {
+           System.out.println("The maximum of the four numbers is:" + k);
+       } else System.out.println("The maximum of the four numbers is: " + l);
 
 
-   //.Se citesc trei numere, sa se afiseze minimul si maximul.
 
-//Se citesc doua numere, sa se ordoneze crescator.
-    }}
+   //13. Se citesc trei numere, sa se afiseze minimul si maximul.
+        System.out.println("13. Enter first number:");
+        int d = reader.nextInt();
+        System.out.println("Enter the second number:");
+        int f = reader.nextInt();
+        System.out.println("Enter the third number:");
+        int g = reader.nextInt();
+        if ((d>=f) && (d>=g)) {
+            System.out.println("The maximum of the three numbers is:" + d + ".");
 
+        } else if ((f>=d) && (f>=g)){
+            System.out.println("The maximum of the three numbers is:" + f + ".");
+
+        }else System.out.println("The maximum of the three numbers is:" + g + ".");
+
+
+        if ((d<=f) && (d<=g)) {
+            System.out.println("The minimum of the three numbers is:" +  d + ".");
+        } else if ((f<=d) && (f<=g)){
+            System.out.println("The minimum of the three numbers is:" + f + ".");
+        }else
+        System.out.println("The minimum of the three numbers is:" + g + ".");
+
+        //14. Se citesc doua numere, sa se ordoneze crescator.
+
+        System.out.println("14. Enter first number:");
+        int o = reader.nextInt();
+        System.out.println("Enter the second number:");
+        int p = reader.nextInt();
+        if (o<p){
+            System.out.println("The two numbers written in ascending order are:" + o + "," + p + ".");
+        } else System.out.println("The two numbers written in ascending order are:" + p + "," + o + ".");
+
+    }
+}
