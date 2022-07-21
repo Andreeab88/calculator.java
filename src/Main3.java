@@ -3,10 +3,10 @@ package src;
 import java.util.Scanner;
 
 public class Main3 {
-    //1. Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
-    //“Got to try some more”
-
     public  static void main(String[] args) {
+
+        //1. Given a text input, if it is “FastTrack”, then print “Learning text comparison”. If not, print
+        //“Got to try some more”
         String textInput = "FastTrack";
 LogicalOperations op = new LogicalOperations();
 op.verifyTextInput(textInput);
@@ -14,23 +14,20 @@ op.verifyTextInput(textInput);
 
 //2. Given a number, if it’s equal to or higher than 2 and equal to or lower than 8, print the
 //number
-
-   int x = 9;
+        int x = 9;
 op.getNumber(x);
 
 
 //3. Given a number input, if it is higher than 8 OR equal to 6, print “The amount of snow
 //this winter was(cm):” and the given number. Else print “The forecast snow is(cm):”
-
-   int i = 2;
+        int i = 2;
    op.getCmOfSnow(i);
 
 //4. Given a number input, if the number is greater than 3 but not equal to 4, print “The
 //number is greater than 3 and not equal to 4”. Else if the number is equal to 4 print
 //”The number is equal to 4”. Else if the number is lower than 3 print “The number is
 //lower than 3”
-
-int y = 2;
+        int y = 2;
 op.getTheGreatherNumber(y);
 
 //5. If the user pressed number keys( from 0 to 9), the program will tell the number that is
@@ -54,8 +51,6 @@ Scanner scanner=new Scanner(System.in);
         }
 
     //6. Write a Java program to determine whether an input number is an even number.
-
-
         System.out.println("6. Enter the number: " );
         int a =  reader.nextInt();
         if (a % 2 == 0){
@@ -74,7 +69,6 @@ Scanner scanner=new Scanner(System.in);
                } else System.out.println("The person is not eligible to vote.");
 
        //8. Find the greatest number from 3 given numbers.
-
         System.out.println("8. Enter 3 numbers: " );
                int q = reader.nextInt();
                int w = reader.nextInt();
@@ -102,7 +96,6 @@ Scanner scanner=new Scanner(System.in);
 
 
     //11. Se citesc doua numere, sa se afiseze rezultatul impartirii celor doua numere.
-
         System.out.println("11. Enter first number: ");
         double first= reader.nextDouble();
         System.out.println("Enter second number: ");
@@ -112,7 +105,6 @@ Scanner scanner=new Scanner(System.in);
 
 
         //Se citesc patru numere, sa se afiseze maximul.
-
         System.out.println("12. Enter first number:");
         int m = reader.nextInt();
         System.out.println("Enter the second number:");
@@ -138,6 +130,14 @@ Scanner scanner=new Scanner(System.in);
         int f = reader.nextInt();
         System.out.println("Enter the third number:");
         int g = reader.nextInt();
+
+        if ((d<=f) && (d<=g)) {
+            System.out.println("The minimum of the three numbers is:" +  d + ".");
+        } else if ((f<=d) && (f<=g)){
+            System.out.println("The minimum of the three numbers is:" + f + ".");
+        }else
+        System.out.println("The minimum of the three numbers is:" + g + ".");
+
         if ((d>=f) && (d>=g)) {
             System.out.println("The maximum of the three numbers is:" + d + ".");
 
@@ -147,15 +147,7 @@ Scanner scanner=new Scanner(System.in);
         }else System.out.println("The maximum of the three numbers is:" + g + ".");
 
 
-        if ((d<=f) && (d<=g)) {
-            System.out.println("The minimum of the three numbers is:" +  d + ".");
-        } else if ((f<=d) && (f<=g)){
-            System.out.println("The minimum of the three numbers is:" + f + ".");
-        }else
-        System.out.println("The minimum of the three numbers is:" + g + ".");
-
         //14. Se citesc doua numere, sa se ordoneze crescator.
-
         System.out.println("14. Enter first number:");
         int o = reader.nextInt();
         System.out.println("Enter the second number:");
