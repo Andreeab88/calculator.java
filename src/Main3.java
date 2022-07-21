@@ -37,17 +37,17 @@ Scanner scanner=new Scanner(System.in);
         System.out.println("5. Press a number: ");
         int z = reader.nextInt();
         switch (z) {
-            case 0 -> System.out.println("The user pressed: 0.");
-            case 1 -> System.out.println("The user pressed: 1.");
-            case 2 -> System.out.println("The user pressed: 2.");
-            case 3 -> System.out.println("The user pressed: 3.");
-            case 4 -> System.out.println("The user pressed: 4.");
-            case 5 -> System.out.println("The user pressed: 5.");
-            case 6 -> System.out.println("The user pressed: 6.");
-            case 7 -> System.out.println("The user pressed: 7.");
-            case 8 -> System.out.println("The user pressed: 8.");
-            case 9 -> System.out.println("The user pressed: 9.");
-            default -> System.out.println("Not allowed");
+            case 0: System.out.println("The user pressed: 0.");break;
+            case 1: System.out.println("The user pressed: 1.");break;
+            case 2: System.out.println("The user pressed: 2.");break;
+            case 3: System.out.println("The user pressed: 3.");break;
+            case 4: System.out.println("The user pressed: 4.");break;
+            case 5: System.out.println("The user pressed: 5.");break;
+            case 6: System.out.println("The user pressed: 6.");break;
+            case 7: System.out.println("The user pressed: 7.");break;
+            case 8: System.out.println("The user pressed: 8.");break;
+            case 9: System.out.println("The user pressed: 9.");break;
+            default: System.out.println("Not allowed");
         }
 
     //6. Write a Java program to determine whether an input number is an even number.
