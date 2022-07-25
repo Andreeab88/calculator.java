@@ -31,19 +31,16 @@ public class LogicalOperations {
          }
 
 
-   public int getTheGreatherNumber(int y){
-   if ((y>3) && (y!=4)) {
-        System.out.println("4. The number is greater than 3 and not equal to 4.");
-    }
-else if (y==4) {
-        System.out.println("4. The number is equal to 4.");
-    }
-     else if (y<3) {
-       System.out.println("4. The number is lower than 3.");
+   public int getTheGreatherNumber(int y) {
+       if ((y > 3) && (y != 4)) {
+           System.out.println("4. The number is greater than 3 and not equal to 4.");
+       } else if (y == 4) {
+           System.out.println("4. The number is equal to 4.");
+       } else if (y < 3) {
+           System.out.println("4. The number is lower than 3.");
 
-   }
+       }
        return (0);
 
 
-
-}}
+   }}

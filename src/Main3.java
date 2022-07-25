@@ -152,9 +152,8 @@ Scanner scanner=new Scanner(System.in);
         int o = reader.nextInt();
         System.out.println("Enter the second number:");
         int p = reader.nextInt();
-        if (o<p){
+        if (o < p) {
             System.out.println("The two numbers written in ascending order are:" + o + "," + p + ".");
         } else System.out.println("The two numbers written in ascending order are:" + p + "," + o + ".");
-
     }
 }

@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Adoption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/AmountOfMoneyAvailableForPetFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +57,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main3">
+  <component name="RunManager" selected="Application.Appmain">
+    <configuration name="Appmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.AnimalRescuer.Dog.Appmain" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.AnimalRescuer.Dog.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Main1" />
       <module name="MyJavaProject" />
@@ -83,13 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTemaLab9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mainTemaLab9" />
-      <module name="MyJavaProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="src.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Main2" />
       <module name="MyJavaProject" />
@@ -105,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Appmain" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.src.Main2" />
         <item itemvalue="Application.Main1" />
         <item itemvalue="Application.mainTemaLab10" />
-        <item itemvalue="Application.mainTemaLab9" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658382846919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Project">
+      <created>1658384128903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658384128903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,5 +190,16 @@
     <MESSAGE value="Tema" />
     <MESSAGE value="Java Project" />
     <option name="LAST_COMMIT_MESSAGE" value="Java Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
