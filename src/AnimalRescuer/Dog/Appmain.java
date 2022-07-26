@@ -18,5 +18,10 @@ animal.walk();
         Bella.moneyForDogFood();
  Adoption adoption = new Adoption();
  adoption.adoption();
+  RecreationalAactivity relaxActivity = new RecreationalAactivity();
+  relaxActivity.relaxActivity();
+Veterinarian goToDoctor = new Veterinarian();
+goToDoctor.goToDoctor();
+
     }
 }

@@ -1,5 +1,11 @@
 package src.AnimalRescuer.Dog;
 
+//-activitate de recreere: nume
 public class RecreationalAactivity {
-    //-activitate de recreere: nume
+String relaxActivity =  "sleep";
+
+    public void relaxActivity(){
+        System.out.println("Bella likes to sleep.");
+        System.out.println("Bella likes to run.");
+    }
 }

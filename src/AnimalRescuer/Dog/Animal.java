@@ -18,4 +18,5 @@ public void jogging(){
 public void walk(){
     System.out.println("Bella likes to go for a walk.");
 }
+
 }
