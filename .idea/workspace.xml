@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Appmain">
+  <component name="RunManager" selected="Application.Main4">
     <configuration name="Appmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AnimalRescuer.Dog.Appmain" />
       <module name="MyJavaProject" />
@@ -93,9 +91,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainTemaLab10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mainTemaLab10" />
+    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main4" />
       <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Appmain" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.src.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.mainTemaLab10" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658763234727</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Java Project">
+      <created>1658809803134</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658809803134</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +212,16 @@
           <url>file://$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java</url>
           <line>21</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main4.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main4.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
