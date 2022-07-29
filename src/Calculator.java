@@ -43,19 +43,8 @@ public class Calculator {
     }
 
 
-    //3.
-    public void modelJava()
-    {
-        System.out.print(
-                        "     J      a       V     V      a    \n"+
-                        "     J     a a       V   V      a a   \n"+
-                        "  J  J    aaaaa       V V      aaaaa  \n"+
-                        "  J J    a     a       V      a     a "
-        );
 
 
-
-    }
 
 
 
@@ -66,17 +55,7 @@ public class Calculator {
     }
 
 
-    //5.
-    public void model(){
-        System.out.println(
-                "  +|||||+  \n" +
-                        " [| o o |] \n" +
-                        "  |  ^  |  \n" +
-                        "  | '-' |  \n" +
-                        "  +-----+    "
-        );
 
-    }
 
 
     //6.

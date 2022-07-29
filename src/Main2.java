@@ -75,8 +75,9 @@ public class Main2 {
                 calc.impartire(21,6)+(";"));
 
         //3. Scrieti o metoda java, care sa afiseze urmatorul model:
+        Print print=new Print();
         System.out.println("3. Modelul Java:");
-        calc.modelJava();
+        print.modelJava();
 
         // 4.Scrieti o metoda java, care sa primeasca 3 parametrii de tip numar,
         //si sa returneze media numerelor.
@@ -85,7 +86,7 @@ public class Main2 {
 
         //5.Scrieti o metoda java, care sa afiseze urmatorul model:
         System.out.println("5.");
-        calc.model();
+        print.model();
 
         //6.Scrieti o metoda java, care sa returneze restul impartirii a doua numere.
         System.out.println("6. Restul impartirii numerelor 15 si 7 este: "+
