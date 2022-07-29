@@ -22,7 +22,7 @@ public class Main4 {
         // Atentie la crearea tipului metodei, deoarece metoda afiseaza, nu returneaza.
 
         int y = 7;
-        System.out.println("\n 2. Counting up to -100 is: ");
+        System.out.println("\n\n 2. Counting up to -100 is: ");
         op.printMinusHundred(y);
 
         //  3. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
@@ -32,7 +32,7 @@ public class Main4 {
 
         int a = 2;
         int b = 10;
-        System.out.println("\n 3. The numerator between the two numbers is: ");
+        System.out.println("\n\n 3. The numerator between the two numbers is: ");
         op.intervalNumbers(a, b);
 
         //4. Creati o metoda in clasa LogicalOp, care sa primeasca doi parametrii de tip numar.
@@ -44,18 +44,18 @@ public class Main4 {
         Scanner reader=new Scanner(System.in);
 
 
-        System.out.println("\n 4. Enter 2 numbers: ");
+        System.out.println("\n\n 4. Enter 2 numbers: ");
         int q = reader.nextInt();
         int w = reader.nextInt();
         op.crescNumbers(q,w);
 //5. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele pare de la 1 la 100.
 
-        System.out.println("\n 5. The even numbers from 1 to 100: ");
+        System.out.println("\n\n 5. The even numbers from 1 to 100: ");
         op.evenNumbers();
 
 //6. Creati o metoda in clasa LogicalOp care sa afiseze toate numerele impare de la 1 la 100.
 
-        System.out.println("\n 6. The odd numbers from 1 to 100: ");
+        System.out.println("\n\n 6. The odd numbers from 1 to 100: ");
         op.oddNumbers();
 //7. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
 // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
@@ -63,14 +63,14 @@ public class Main4 {
 // metoda main() pentru a verifica daca functioneaza.
         int z = 5;
         int sum = 0;
-        System.out.println("\n 7. The sum of numbers count up to 100: ");
+        System.out.println("\n\n 7. The sum of numbers count up to 100: ");
         op.sumOfNumbers(z,sum);
 
 //8. Creati o metoda in clasa LogicalOp care sa primeasca un parametru de tip numar.
 // Metoda sa adune toate numerele pana la 100, pornind de la numarul primit ca si parametru,
 // si sa calculeze media numerelor. La final, metoda sa returneze media. Apelati metoda in clasa Main,
 // metoda main() pentru a verifica daca functioneaza.
-        System.out.println("\n 8. The sum and average of numbers count up to 100: ");
+        System.out.println("\n\n 8. The sum and average of numbers count up to 100: ");
         op.sumAndAverage();
 
 } }
