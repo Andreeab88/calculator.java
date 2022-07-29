@@ -73,5 +73,19 @@ public class Main4 {
         System.out.println("\n\n 8. The sum and average of numbers count up to 100: ");
         op.sumAndAverage();
 
-} }
+
+ //9. Creat o metoda in clasa LogicalOp care sa afiseze urmatorul tipar:
+
+        //*******
+        //******
+        //*****
+        //****
+        //***
+        //**
+        //*
+
+Print print=new Print();
+        System.out.println("\n 9. ");
+print.printStars();
+    } }
 
