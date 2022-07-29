@@ -117,5 +117,155 @@ return sum;
         }
         return sum / 100d;
     }
+  public void numberCountTo100(int c){
+       while (c<=100){
+                System.out.print(c + " ");
+                c++;
+            }
+        }
+
+    public void numberCountToMinusToHundred(int c){
+        while (c>=-100){
+            System.out.print(c + " ");
+            c--;
+        }
+    }
+
+
+public void setNumeratorBetweenTwoNumbers(int first,int second){
+
+    while (first<=second) {
+        System.out.print(first + " ");
+    first++;
+    }
+}
+
+public void setIncreasingNumbersBetweenAnInterval(int first, int second){
+       while (first<=second){
+           System.out.println(first + " ");
+           first++;
+       }
+    while (first>=second){
+        System.out.print(second + " ");
+        second++;
+    }
+   }
+
+public void EvenNumbers(){
+       int i =0;
+       while( i<=100){
+           i++;
+          if(i%2==0) {
+           System.out.print(i + " ");
+
+       }}
+
+   }
+
+
+    public void OddNumbers(){
+        int i = 0;
+        while( i<=100){
+            i++;
+            if(i%2!=0) {
+                System.out.print(i + " ");
+
+            }}
+
+    }
+
+
+public void getSumAndAverage(){
+int first = 111;
+int last = 8899;
+    int sum1 = 0;
+    double count = 0;
+   while(first <= last){
+        sum1 = sum1 + first;
+        first++;
+        count++;
+
+    }
+    System.out.println(sum1/count);
+   }
+
+
+   public double getDivideWith7AndAverage(int start, int finish){
+       int div = 0;
+       double count = 0;
+   while(start<=finish){
+       start++;
+       count++;
+       if (start%7==0){
+          System.out.print(start + " ");
+
+      }
+
+   }
+       return(start/count);
+   }
+
+  public void getFibonacciSeries(){
+
+  int n1 = 0;
+    int n2 = 1;
+    int count = 20;
+        System.out.println("\n\n 18. Fibonacci Series of "+count+" numbers:");
+
+        int i=1;
+        while(i<=count){
+            System.out.print(n1+" ");
+            int sumOfPrevTwo = n1 + n2;
+            n1 = n2;
+            n2 = sumOfPrevTwo;
+            i++;
 
         }
+      }
+
+//  Creati o metoda numita CozaLozaWoza.
+    //Metoda va afisa:
+    //- numerele de la 1 la 110
+    //- 11 numere pe linie
+    //- se va afisa Coza pentru numerele care sunt multiplu de 3 (1 2 Coza 4)
+    //- se va afisa Loza pentru numerele care sunt multiplu de 5 (2 3 4 Loza 6)
+    //- se va afisa Woza pentru numerele care sunt multiplu de 7 (4 5 6 Woza 8)
+    //- se va afisa CozaLoza pentru numerele care sunt multiplu de 3 SI 5
+    //- se va afisa CozaWoza pentru multiplu de 3 SI 7
+    //- se va afisa WozaLoza pentru multiplu de 5 SI 7
+    //- se va afisa CozaLozaWoza pentru multiplu de 3 SI 5 SI 7
+
+public void printCozaLozaWoza(){
+     for(int i = 1; i<=110; i++){
+         if(i%3==0){
+             System.out.print("Coza ");
+         } else if(i%5==0){
+             System.out.print("Loza ");
+         }else if(i%7==0){
+             System.out.print("Woza ");
+         } else if(i%3==0 && i%5==0){
+             System.out.print("CozaLoza ");
+         }else if(i%3==0&&i%7==0){
+             System.out.print("CozaWoza ");
+         }else if(i%5==0&&i%7==0){
+             System.out.print("WozaLoza ");
+         }else if(i%3==0&&i%5==0&&i%7==0){
+             System.out.println("CozaLozaWoza ");
+         } else System.out.print(i + " ");
+         if(i%11==0){
+             System.out.println();
+         }
+     }
+
+
+
+   }}
+
+
+
+
+
+
+
+
+
