@@ -11,17 +11,32 @@ public class Appmain {
         //-activitate de recreere: nume
         //-medic veterinar: nume, specializare
         //Asigurați-vă că fiecare concept este reprezentat prin câte o proprietate de tipul corespunzător.
-Animal animal = new Animal();
-animal.jogging();
-animal.walk();
-        AmountOfMoneyAvailableForPetFood Bella = new AmountOfMoneyAvailableForPetFood();
-        Bella.moneyForDogFood();
+Dog Labus = new Dog();
+        System.out.println(Labus.getName());
+       Labus.setName("Labus");
+        Labus.jogging();
+        Labus.walk();
+
+        Dog Grivey = new Dog();
+        Grivey.setName ("Grivey");
+        System.out.println(Grivey.getName());
+        Grivey.walk();
+        Grivey.jogging();
+
+AmountOfMoneyAvailableForPetFood Bella = new AmountOfMoneyAvailableForPetFood();
+Bella.moneyForDogFood();
+
  Adoption adoption = new Adoption();
  adoption.adoption();
-  RecreationalAactivity relaxActivity = new RecreationalAactivity();
+
+ RecreationalAactivity relaxActivity = new RecreationalAactivity();
   relaxActivity.relaxActivity();
-Veterinarian goToDoctor = new Veterinarian();
-goToDoctor.goToDoctor();
+
+  Veterinarian goToDoctor = new Veterinarian();
+  goToDoctor.goToDoctor();
+
+
+
 
     }
 }
