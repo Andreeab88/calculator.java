@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Adoption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Adoption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/AmountOfMoneyAvailableForPetFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/AmountOfMoneyAvailableForPetFood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,20 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.src.AnimalRescuer.Dog.Appmain">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Main1" />
-      <module name="MyJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main5">
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Main3" />
       <module name="MyJavaProject" />
@@ -87,6 +67,19 @@
     </configuration>
     <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.Main4" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main5" />
       <module name="MyJavaProject" />
       <extension name="coverage">
         <pattern>
@@ -126,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.src.AnimalRescuer.Dog.Appmain" />
         <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.src.Main2" />
-        <item itemvalue="Application.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659104961838</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Java Project">
+      <created>1659414120333</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1659414120333</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

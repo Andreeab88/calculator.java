@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Arrays;
+
 public class LogicalOperations {
    public String verifyTextInput(String textInput) {
        if (textInput.equals("FastTrack")) {
@@ -257,9 +259,82 @@ public void printCozaLozaWoza(){
          }
      }
 
+}
+    //In clasa LogicalOp, creati o metoda care sa scrie pe un array de 100 de pozitii, valorile de la 1 la 100.
+    // Sa se afiseze progresul in consola pe tot parcursul.
+ public int[] getArrayTo100() {
+     int[] array = new int[100];
+     for(int i=0; i< 100; i++){
+         array[i]=i+1;
+         System.out.print(array[i] + " ");
+     }
+return array;
+ }
 
 
-   }}
+
+// Creati o metoda care primeasca un parametru de tip array de numere intregi gol,
+// si sa il returneze populat cu toate valorile pare de la 1 la 100.
+// Apelati metoda in main() pentru a verifica daca functioneaza.
+// Atentie, metoda returneaza un array, deci acesta va trebui surprins si afisat folosind o bucla.
+
+  public int[] populateAnArray(int number){
+       int[] array=new int[100];
+       for(int i=0;i< array.length;i++){
+           array[i]=i+1;
+
+       }
+  return array;
+   }
+
+
+public void printArray(int[] array){
+       for(int i=0; i< array.length;i++){
+           System.out.print(array[i] + " ");
+       }
+}
+  // Creati o metoda care sa primeasca un parametru de tip array de numere, si sa fie populat cu valori.
+    // Metoda sa calculeze si sa returneze media numerelor din array.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+  public double getAverageOfArray(int[] array){
+    double sum=0;
+     for(int i=0;i<array.length;i++){
+        sum +=array[i];
+     }
+   return sum/array.length;
+    }
+
+  //. Creati o metoda care sa primeasca un parametru de tip array de string-uri, populat cu valori,
+    // si un parametru de tip String. Metoda sa verifice daca valoarea string-ului primit se regaseste
+    // in array-ul primit, iar daca da sa returneze true iar daca nu, sa returneze false.
+    // Apelati metoda in main() pentru a verifica daca functioneaza.
+
+  public String verifyArrayOfStrings(){
+      String[] words = {"Andreea","Ioana","Iustin","Daniel"};
+      String x= "Andreea";
+      
+
+       //if(x.equals(words)){
+        // System.out.println("Variabila de tip string " + x + " este in array-ul de string'uri: " + words);
+
+   //  } else System.out.println("False");
+return x;
+  }
+
+     public void printArrayOfStrings(){
+         String[] words = {"Andreea","Ioana","Iustin","Daniel"};
+         System.out.println();
+      }
+
+
+
+
+    //{ String[] words = new String[]{'C++', 'Java', 'C', 'Python'};
+        // Convert String Array to List Listwordslist = Arrays.asList(words); String tochk = 'Java';
+        // if(wordslist.contains(tochk)){ System.out.println('The word ' + tochk + ' present in string array');
+        // } else System.out.println('The word ' + tochk + ' not present in string array' ); } }
+   }
 
 
 
