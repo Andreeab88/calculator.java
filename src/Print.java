@@ -36,4 +36,20 @@ public class Print {
         }
 
     }
-}
+
+
+
+// Creati o metoda care sa afiseze urmatoarea grila, folosind un array:
+
+    public void printArrayModel() {
+
+        char[] model= {'-', '-', '-', '-', '-','-','-','-','-','-'};
+        for (int i = 0; i < 10;i++) {
+
+                System.out.println(model);
+            }
+
+        }
+
+    }
+
