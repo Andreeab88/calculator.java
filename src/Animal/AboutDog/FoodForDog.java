@@ -1,8 +1,8 @@
-package src.AnimalRescuer.Dog;
+package src.Animal.AboutDog;
 
 //-sumă de bani disponibilă pentru mâncare de animale: nume, preț, cantitate, disponibilitate în stoc
 
-public class AmountOfMoneyAvailableForPetFood {
+public class FoodForDog {
    private String nameOfFood ;
    private double price ;
    private int quantity;
@@ -44,7 +44,7 @@ public class AmountOfMoneyAvailableForPetFood {
 
 
   public void moneyForDogFood(){
-       System.out.println("I'm buying food for Bella.");
+       System.out.println("I'm buying food.");
    }
 
 }

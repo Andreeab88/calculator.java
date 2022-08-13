@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Animal/AboutDog/Adoption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal/AboutDog/RecreationalAactivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Animal/Puppy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Adoption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/AmountOfMoneyAvailableForPetFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/AboutDog/FoodForDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Appmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/AboutDog/Veterinarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Print.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +63,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main5">
-    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Main3" />
+  <component name="RunManager" selected="Application.Main6">
+    <configuration name="Appmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.AnimalRescuer.Appmain" />
       <module name="MyJavaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="src.*" />
+          <option name="PATTERN" value="src.AnimalRescuer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +103,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.Main6" />
+      <module name="MyJavaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="src.AnimalRescuer.Dog.Appmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AnimalRescuer.Dog.Appmain" />
       <module name="MyJavaProject" />
@@ -105,26 +129,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="src.Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="src.Main2" />
-      <module name="MyJavaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.Main6" />
+        <item itemvalue="Application.Appmain" />
         <item itemvalue="Application.src.AnimalRescuer.Dog.Appmain" />
+        <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
-        <item itemvalue="Application.Main3" />
-        <item itemvalue="Application.src.Main2" />
       </list>
     </recent_temporary>
   </component>
@@ -235,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659446293118</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Java Project">
+      <created>1660297161174</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1660297161174</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

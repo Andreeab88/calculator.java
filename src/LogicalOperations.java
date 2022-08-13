@@ -1,5 +1,6 @@
 package src;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -426,7 +427,16 @@ public void copyArray() {
     }
 
 
-        }
+  //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
+    // toate valorile din lista, fiecare pe rand nou.
+
+    public void printMyArrayList(List<Integer>myList){
+
+        for(int i=1;i<=100;i++){
+        System.out.println(i);
+    }}
+
+}
 
 
 

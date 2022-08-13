@@ -1,4 +1,10 @@
-package src.AnimalRescuer.Dog;
+package src.AnimalRescuer;
+
+import src.Animal.Cat;
+import src.Animal.AboutDog.*;
+import src.Animal.Duck;
+import src.Animal.Mouse;
+import src.Animal.Puppy;
 
 public class Appmain {
     public static void main(String[] args) {
@@ -11,20 +17,35 @@ public class Appmain {
         //-activitate de recreere: nume
         //-medic veterinar: nume, specializare
         //Asigurați-vă că fiecare concept este reprezentat prin câte o proprietate de tipul corespunzător.
-Dog Labus = new Dog();
-        System.out.println(Labus.getName());
-       Labus.setName("Labus");
-        Labus.jogging();
+Puppy Labus = new Puppy();
+        Labus.setName("Labus");
+System.out.println(Labus.getName());
+Labus.jogging();
         Labus.walk();
 
-        Dog Grivey = new Dog();
-        Grivey.setName ("Grivey");
+        Puppy Grivey = new Puppy();
+        Grivey.setName ("\nGrivey");
         System.out.println(Grivey.getName());
         Grivey.walk();
         Grivey.jogging();
 
-AmountOfMoneyAvailableForPetFood Bella = new AmountOfMoneyAvailableForPetFood();
-Bella.moneyForDogFood();
+        Cat Felix = new Cat();
+        Felix.setName("\nFelix");
+        System.out.println(Felix.getName());
+        Felix.meouws();
+
+        Mouse Mouse= new Mouse();
+        Mouse.setName("\nMouse");
+        System.out.println(Mouse.getName());
+        Mouse.squeak();
+
+        Duck Ducky= new Duck();
+        Ducky.setName("\nDucky");
+        System.out.println(Ducky.getName());
+        Ducky.quack();
+
+FoodForDog Bella = new FoodForDog();
+        Bella.moneyForDogFood();
 
  Adoption adoption = new Adoption();
  adoption.adoption();

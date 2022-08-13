@@ -1,15 +1,13 @@
-package src.AnimalRescuer.Dog;
+package src.Animal.AboutDog;
 
 //medic veterinar: nume, specializare
 public class Veterinarian {
   private String name ;
   private String specialization;
 
- public String getName(){
-     return name;
- }
 
-    public void setName(String name) {
+  public String getName(){return name;}
+ public void setName(String name) {
         this.name = name;
     }
 
@@ -24,6 +22,6 @@ public class Veterinarian {
 
 
     public void goToDoctor(){
-      System.out.println("When Bella feels sick, she must be taken to the veterinary doctor. ");
+      System.out.println("He go to the doctor. ");
   }
 }
