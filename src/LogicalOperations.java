@@ -436,6 +436,18 @@ public void copyArray() {
         System.out.println(i);
     }}
 
+//Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru sa fie o lista de numere,
+// si celalalt un numar (real sau intreg).
+// Metoda sa adauge numarul primit ca si parametru la final de lista.
+
+public void addParameterToList(List<Integer>myList, int x){
+       for(int i=0;i<=myList.size();i++) {
+           myList.add(100, 50);
+       }
+    System.out.println(myList.add(););
+}
+
+
 }
 
 

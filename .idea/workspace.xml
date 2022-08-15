@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Animal/AboutDog/Adoption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal/AboutDog/RecreationalAactivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal/Mouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animal/Puppy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Adoption.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/AmountOfMoneyAvailableForPetFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/AboutDog/FoodForDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Appmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Appmain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescuer/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/RecreationalAactivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescuer/Dog/Veterinarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/AboutDog/Veterinarian.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
