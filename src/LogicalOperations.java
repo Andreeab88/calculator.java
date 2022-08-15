@@ -442,9 +442,9 @@ public void copyArray() {
 
 public void addParameterToList(List<Integer>myList, int x){
        for(int i=0;i<=myList.size();i++) {
-           myList.add(100, 50);
+           myList.set(99, 50);
        }
-    System.out.println(myList.add(););
+    System.out.println(myList);
 }
 
 
