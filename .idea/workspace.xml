@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="" />
+    <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -281,6 +285,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/calculator_java$Main6.ic" NAME="Main6 Coverage Results" MODIFIED="1660798958428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>src.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/calculator_java$Main5.ic" NAME="Main5 Coverage Results" MODIFIED="1660293849401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>src.*</FILTER>
     </SUITE>

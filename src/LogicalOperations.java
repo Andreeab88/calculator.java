@@ -410,45 +410,122 @@ public class LogicalOperations {
 // Metoda sa copieze toate valorile din primul array, parcurgandu-l, in cel de-al doilea.
 // Apelati metoda in main() pentru a verifica daca functioneaza.
 
-public void copyArray() {
-    int[] original = {10, 20, 30, 40};
-   int[]copy = original;
-    for(int i=0;i< original.length;i++)
-       copy[i]=original[i];
-    original[3]=56;
-    System.out.println("Original array is: ");
-    for (int i = 0; i < original.length; i++)
-        System.out.print(original[i] + "\t");
+    public void copyArray() {
+        int[] original = {10, 20, 30, 40};
+        int[] copy = original;
+        for (int i = 0; i < original.length; i++)
+            copy[i] = original[i];
+        original[3] = 56;
+        System.out.println("Original array is: ");
+        for (int i = 0; i < original.length; i++)
+            System.out.print(original[i] + "\t");
 
 
-    System.out.println("\nCopied array is: ");
-    for (int i = 0; i < copy.length; i++)
-        System.out.print(copy[i] + "\t");
+        System.out.println("\nCopied array is: ");
+        for (int i = 0; i < copy.length; i++)
+            System.out.print(copy[i] + "\t");
     }
 
 
-  //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
+    //Scrieti o metoda Java, care sa primeasca parametru o Lista, si sa afiseze, pe rand,
     // toate valorile din lista, fiecare pe rand nou.
 
-    public void printMyArrayList(List<Integer>myList){
+    public void printMyArrayList(List<Integer> myList) {
 
-        for(int i=1;i<=100;i++){
-        System.out.println(i);
-    }}
+        for (int i = 0; i <myList.size(); i++) {
+            System.out.println(myList.get(i));
+        }
+    }
 
 //Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru sa fie o lista de numere,
 // si celalalt un numar (real sau intreg).
 // Metoda sa adauge numarul primit ca si parametru la final de lista.
 
-public void addParameterToList(List<Integer>myList, int x){
-       for(int i=0;i<=myList.size();i++) {
-           myList.set(99, 50);
-       }
-    System.out.println(myList);
+    public void addParameterToList(List<Integer> myList1, int x) {
+        for (int i = 0; i <= 100; i++) {
+          myList1.add(x);
+break;
+        } System.out.println(myList1);
+
+
+        // return myList.size();
+
+    }
+
+//Scrieti o metoda Java, care sa primeasca doi parametrii: un parametru de tip Lista,
+// iar celalalt un numar intreg. Sa se parcurga lista si sa afiseze, pe rand, toate valorile din lista,
+// fiecare pe rand nou, pornind de la numarul intreg primit ca si parametru.
+
+    public void printMyList(List<Integer> myList2, int y) {
+
+        for (int i = 25; i <= 50; i++) {
+           myList2.add(i);
+        }
+        System.out.print(myList2);
+    }
+
+
+ //Scrieti o metoda Java, care sa primeasca parametru o Lista,
+    // si sa afiseze, pe rand, toate valorile din lista, dar invers(de la capat la inceput).
+
+  public void printReverseList(List<Integer> myList3){
+        for(int i=myList3.size()-1;i>=0;i--){
+            System.out.print(myList3.get(i) + " ") ;
+        }
+
+  }
+
+
+//Scrieti o metoda Java, care sa primeasca trei parametrii: unul de tip Lista de String-uri,
+// unul de tip intreg, si unul de tip String. Metoda sa adauge parametrul de tip String in lista primita,
+// iar parametrul de tip intreg reprezinta pozitia la care sa fie pus acel String.
+
+
+   public void addStringToList(List<String> myList4, int x, String y){
+        for(int i=0; i<=myList4.size();i++){
+            myList4.set(x,y);
+        }
+       System.out.println(myList4);
+   }
+
+
+ //Scrieti o metoda Java, care sa primeasca doi parametrii. Primul dintre ei va fi o Lista,
+    // iar metoda sa ia al doilea parametru si sa il adauge pe prima pozitie din lista.
+
+
+    public void addParameterToList(List<String> myList5, String y){
+        for(int i=0; i<=myList5.size();i++){
+            myList5.set(0,y );
+        }
+        System.out.println(myList5);
+    }
+
+
+ //Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista,
+    // si ce pe ce pozitie. (Ex: “Pe pozitia 1 valoare este 4”).
+
+
+ public void addListWithPositionsAndValues(List<Integer> myList6){
+        for(int i=0;i<=99;i++){
+            System.out.println("Pe pozitia " + i + " valoarea este " + myList6.get(i));
+        }
+ }
+
+ //Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
+
+    public int getTheBiggestNumber(List<Integer>myList7){
+int biggest = myList7.get(0);
+        for(int i=0;i<myList7.size();i++) {
+            if (myList7.get(i)> biggest) {
+               biggest=myList7.get(i);
+            }
+
+        }
+        return biggest;
+    }
 }
 
 
-}
 
 
 
