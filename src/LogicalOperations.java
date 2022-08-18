@@ -1,8 +1,6 @@
 package src;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class LogicalOperations {
     public String verifyTextInput(String textInput) {
@@ -523,6 +521,64 @@ int biggest = myList7.get(0);
         }
         return biggest;
     }
+
+//Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
+
+public void changePositionFromTheList(List<Integer> myList){
+       // int x=myList.get(0);
+        for(int i=0;i<=myList.size();i++){
+            myList.set(5,7);
+            myList.set(6,6);
+        }
+    System.out.println(myList);
+    }
+
+//Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista,
+// care sa contina doar numerele pare din lista primita.
+
+public List<Integer> getTheListWithTheEvenNumbers(List<Integer>myList, List<Integer>myListWithEvenNumbers ){
+
+
+    for(int i=0;i<= myList.size()-1;i++){
+        //int x = myList.get(0);
+       int x=myList.get(i);
+
+            if(x%2==0){
+
+                myListWithEvenNumbers.add(x);
+            }
+        }
+return myListWithEvenNumbers;
+    }
+
+
+//Scrieti o metoda Java care sa primeasca parametru o Lista nesortata, si sa returneze Lista sortata crescator.
+// Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
+// si nu folosit librarie externa, precum Collection.sort().
+
+public List<Integer>  getListSortedByBreeder(List<Integer>myUnorderedList,List<Integer>mySortedByBreederList){
+
+        myUnorderedList.add(2);
+    myUnorderedList.add(8);
+    myUnorderedList.add(7);
+    myUnorderedList.add(3);
+    myUnorderedList.add(22);
+    myUnorderedList.add(20);
+    myUnorderedList.add(15);
+    int x=myUnorderedList.get(0);
+
+   for(int i=0;i<myUnorderedList.size();i++){
+       x=myUnorderedList.add(i);
+
+if(myUnorderedList.add(i) < myUnorderedList.add(i+1)){
+
+    mySortedByBreederList.add(i);
+}
+   }
+return mySortedByBreederList;
+    }
+
+
 }
 
 

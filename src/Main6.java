@@ -96,5 +96,39 @@ op.addParameterToList(myList5,"Andreea");
 
         System.out.print(op.getTheBiggestNumber(myList7));
 
+
+  //9. Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
+
+        System.out.println("\n 9. The changed position for two numbers from to the list is: ");
+        List<Integer> myList8=new ArrayList<>();
+        for (int i = 1; i <=100; i++) {
+            myList8.add(i);
+        }
+  op.changePositionFromTheList(myList8);
+
+
+  //10. Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista,
+        // care sa contina doar numerele pare din lista primita.
+        List<Integer> myList9 = new ArrayList<>();
+        System.out.print("10. The list with even numbers from complete list is : ");
+        List<Integer> myListWithEvenNumbers = new ArrayList<>();
+        for (int i =1; i <=100; i++) {
+            myList9.add(i);
+        }
+        System.out.println(op.getTheListWithTheEvenNumbers(myList9,myListWithEvenNumbers));
+
+  //11. Scrieti o metoda Java care sa primeasca parametru o Lista nesortata, si sa returneze Lista sortata crescator. Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
+        // si nu folosit librarie externa, precum Collection.sort().
+
+        List<Integer> myUnorderedList= new ArrayList<>();
+
+        List<Integer> mySortedByBreederList = new ArrayList<>();
+        System.out.print("11. The sorted by breeder list is : ");
+
+        //for (int i =0; i < myUnorderedList.size(); i++) {
+          // myUnorderedList.add(i);
+       // }
+        System.out.println(op.getListSortedByBreeder(myUnorderedList,mySortedByBreederList));
+
     }
 }
