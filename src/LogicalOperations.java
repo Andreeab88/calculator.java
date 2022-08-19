@@ -556,23 +556,19 @@ return myListWithEvenNumbers;
 // Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
 // si nu folosit librarie externa, precum Collection.sort().
 
-public List<Integer>  getListSortedByBreeder(List<Integer>myUnorderedList,List<Integer>mySortedByBreederList){
+public List<Integer>  getListSortedByBreeder(List<Integer>mySortedByBreederList){
+List<Integer> myUnorderedList=new ArrayList<Integer>(){{add(2);add(8);add(7);add(3);add(22);add(20);add(15);}};
+    System.out.println("\n 11. The unordered list is: " + myUnorderedList);
+    System.out.print(" The ascending list is : ");
 
-        myUnorderedList.add(2);
-    myUnorderedList.add(8);
-    myUnorderedList.add(7);
-    myUnorderedList.add(3);
-    myUnorderedList.add(22);
-    myUnorderedList.add(20);
-    myUnorderedList.add(15);
-    int x=myUnorderedList.get(0);
+    for(int i=0;i<myUnorderedList.size()-1;i++){
 
-   for(int i=0;i<myUnorderedList.size();i++){
-       x=myUnorderedList.add(i);
 
-if(myUnorderedList.add(i) < myUnorderedList.add(i+1)){
+if(myUnorderedList.get(0) > myUnorderedList.get(1)){
 
-    mySortedByBreederList.add(i);
+
+    mySortedByBreederList.add(1);
+
 }
    }
 return mySortedByBreederList;

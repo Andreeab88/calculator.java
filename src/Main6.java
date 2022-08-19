@@ -123,12 +123,11 @@ op.addParameterToList(myList5,"Andreea");
         List<Integer> myUnorderedList= new ArrayList<>();
 
         List<Integer> mySortedByBreederList = new ArrayList<>();
-        System.out.print("11. The sorted by breeder list is : ");
 
         //for (int i =0; i < myUnorderedList.size(); i++) {
           // myUnorderedList.add(i);
        // }
-        System.out.println(op.getListSortedByBreeder(myUnorderedList,mySortedByBreederList));
+        System.out.println(op.getListSortedByBreeder(mySortedByBreederList));
 
     }
 }
