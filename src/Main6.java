@@ -121,13 +121,20 @@ op.addParameterToList(myList5,"Andreea");
         // si nu folosit librarie externa, precum Collection.sort().
 
         List<Integer> myUnorderedList= new ArrayList<>();
-
+        myUnorderedList.add(2);
+        myUnorderedList.add(7);
+        myUnorderedList.add(10);
+        myUnorderedList.add(5);
+        myUnorderedList.add(22);
+        myUnorderedList.add(33);
+        myUnorderedList.add(11);
         List<Integer> mySortedByBreederList = new ArrayList<>();
-
-        //for (int i =0; i < myUnorderedList.size(); i++) {
-          // myUnorderedList.add(i);
-       // }
-        System.out.println(op.getListSortedByBreeder(mySortedByBreederList));
+        System.out.println("\n 11. The unordered list is: " + myUnorderedList);
+        System.out.print(" The ascending list is : ");
+       // for (int i =0; i < myUnorderedList.size(); i++) {
+         //  myUnorderedList.add(i);
+      // }
+        System.out.println(op.getListSortedByBreeder(myUnorderedList,mySortedByBreederList));
 
     }
 }

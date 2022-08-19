@@ -1,5 +1,6 @@
 package src;
 
+import javax.swing.*;
 import java.util.*;
 
 public class LogicalOperations {
@@ -430,7 +431,7 @@ public class LogicalOperations {
 
     public void printMyArrayList(List<Integer> myList) {
 
-        for (int i = 0; i <myList.size(); i++) {
+        for (int i = 0; i < myList.size(); i++) {
             System.out.println(myList.get(i));
         }
     }
@@ -441,9 +442,10 @@ public class LogicalOperations {
 
     public void addParameterToList(List<Integer> myList1, int x) {
         for (int i = 0; i <= 100; i++) {
-          myList1.add(x);
-break;
-        } System.out.println(myList1);
+            myList1.add(x);
+            break;
+        }
+        System.out.println(myList1);
 
 
         // return myList.size();
@@ -457,21 +459,21 @@ break;
     public void printMyList(List<Integer> myList2, int y) {
 
         for (int i = 25; i <= 50; i++) {
-           myList2.add(i);
+            myList2.add(i);
         }
         System.out.print(myList2);
     }
 
 
- //Scrieti o metoda Java, care sa primeasca parametru o Lista,
+    //Scrieti o metoda Java, care sa primeasca parametru o Lista,
     // si sa afiseze, pe rand, toate valorile din lista, dar invers(de la capat la inceput).
 
-  public void printReverseList(List<Integer> myList3){
-        for(int i=myList3.size()-1;i>=0;i--){
-            System.out.print(myList3.get(i) + " ") ;
+    public void printReverseList(List<Integer> myList3) {
+        for (int i = myList3.size() - 1; i >= 0; i--) {
+            System.out.print(myList3.get(i) + " ");
         }
 
-  }
+    }
 
 
 //Scrieti o metoda Java, care sa primeasca trei parametrii: unul de tip Lista de String-uri,
@@ -479,43 +481,43 @@ break;
 // iar parametrul de tip intreg reprezinta pozitia la care sa fie pus acel String.
 
 
-   public void addStringToList(List<String> myList4, int x, String y){
-        for(int i=0; i<=myList4.size();i++){
-            myList4.set(x,y);
+    public void addStringToList(List<String> myList4, int x, String y) {
+        for (int i = 0; i <= myList4.size(); i++) {
+            myList4.set(x, y);
         }
-       System.out.println(myList4);
-   }
+        System.out.println(myList4);
+    }
 
 
- //Scrieti o metoda Java, care sa primeasca doi parametrii. Primul dintre ei va fi o Lista,
+    //Scrieti o metoda Java, care sa primeasca doi parametrii. Primul dintre ei va fi o Lista,
     // iar metoda sa ia al doilea parametru si sa il adauge pe prima pozitie din lista.
 
 
-    public void addParameterToList(List<String> myList5, String y){
-        for(int i=0; i<=myList5.size();i++){
-            myList5.set(0,y );
+    public void addParameterToList(List<String> myList5, String y) {
+        for (int i = 0; i <= myList5.size(); i++) {
+            myList5.set(0, y);
         }
         System.out.println(myList5);
     }
 
 
- //Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista,
+    //Scrieti o metoda Java care sa primeasca parametru o Lista, si sa afiseze ce valori are lista,
     // si ce pe ce pozitie. (Ex: “Pe pozitia 1 valoare este 4”).
 
 
- public void addListWithPositionsAndValues(List<Integer> myList6){
-        for(int i=0;i<=99;i++){
+    public void addListWithPositionsAndValues(List<Integer> myList6) {
+        for (int i = 0; i <= 99; i++) {
             System.out.println("Pe pozitia " + i + " valoarea este " + myList6.get(i));
         }
- }
+    }
 
- //Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
+    //Scrieti o metoda Java care sa primeasca o Lista si sa returneze cel mai mare numar din ea.
 
-    public int getTheBiggestNumber(List<Integer>myList7){
-int biggest = myList7.get(0);
-        for(int i=0;i<myList7.size();i++) {
-            if (myList7.get(i)> biggest) {
-               biggest=myList7.get(i);
+    public int getTheBiggestNumber(List<Integer> myList7) {
+        int biggest = myList7.get(0);
+        for (int i = 0; i < myList7.size(); i++) {
+            if (myList7.get(i) > biggest) {
+                biggest = myList7.get(i);
             }
 
         }
@@ -524,31 +526,31 @@ int biggest = myList7.get(0);
 
 //Scrieti o metoda Java care sa schimbe pozitia a doua elemente intr-o Lista,
 
-public void changePositionFromTheList(List<Integer> myList){
-       // int x=myList.get(0);
-        for(int i=0;i<=myList.size();i++){
-            myList.set(5,7);
-            myList.set(6,6);
+    public void changePositionFromTheList(List<Integer> myList) {
+        // int x=myList.get(0);
+        for (int i = 0; i <= myList.size(); i++) {
+            myList.set(5, 7);
+            myList.set(6, 6);
         }
-    System.out.println(myList);
+        System.out.println(myList);
     }
 
 //Scrieti o metoda Java care sa primeasca o Lista si sa returneze o alta lista,
 // care sa contina doar numerele pare din lista primita.
 
-public List<Integer> getTheListWithTheEvenNumbers(List<Integer>myList, List<Integer>myListWithEvenNumbers ){
+    public List<Integer> getTheListWithTheEvenNumbers(List<Integer> myList, List<Integer> myListWithEvenNumbers) {
 
 
-    for(int i=0;i<= myList.size()-1;i++){
-        //int x = myList.get(0);
-       int x=myList.get(i);
+        for (int i = 0; i <= myList.size() - 1; i++) {
+            //int x = myList.get(0);
+            int x = myList.get(i);
 
-            if(x%2==0){
+            if (x % 2 == 0) {
 
                 myListWithEvenNumbers.add(x);
             }
         }
-return myListWithEvenNumbers;
+        return myListWithEvenNumbers;
     }
 
 
@@ -556,28 +558,33 @@ return myListWithEvenNumbers;
 // Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
 // si nu folosit librarie externa, precum Collection.sort().
 
-public List<Integer>  getListSortedByBreeder(List<Integer>mySortedByBreederList){
-List<Integer> myUnorderedList=new ArrayList<Integer>(){{add(2);add(8);add(7);add(3);add(22);add(20);add(15);}};
-    System.out.println("\n 11. The unordered list is: " + myUnorderedList);
-    System.out.print(" The ascending list is : ");
-
-    for(int i=0;i<myUnorderedList.size()-1;i++){
+    public List<Integer> getListSortedByBreeder(List<Integer> myUnorderedList, List<Integer> mySortedByBreederList) {
 
 
-if(myUnorderedList.get(0) > myUnorderedList.get(1)){
+        Collections.sort(myUnorderedList);
+
+        //for(int i=0;i<myUnorderedList.size()-1;i++){
+
+//if(myUnorderedList.get(i)< myUnorderedList.get(i+1)){
+        //  int x=myUnorderedList.get(i);
+        //  myUnorderedList.get(i).equals(myUnorderedList.get(i+1));
+        //  myUnorderedList.get(i+1).equals(x);
+        //  mySortedByBreederList.add(i);
+
+//}
+
+        // }
+//return mySortedByBreederList;
+        for (int i : myUnorderedList) {
+            mySortedByBreederList.add(i);
 
 
-    mySortedByBreederList.add(1);
+        }
 
-}
-   }
 return mySortedByBreederList;
     }
 
-
 }
-
-
 
 
 
