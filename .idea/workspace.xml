@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="76c108fe-bad0-4d48-b2b8-3a03240c5cc6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animal/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal/Mouse.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main6">
+  <component name="RunManager" selected="Application.Appmain">
     <configuration name="Appmain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.AnimalRescuer.Appmain" />
       <module name="MyJavaProject" />
@@ -119,8 +119,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main6" />
         <item itemvalue="Application.Appmain" />
+        <item itemvalue="Application.Main6" />
         <item itemvalue="Application.src.AnimalRescuer.Dog.Appmain" />
         <item itemvalue="Application.Main5" />
         <item itemvalue="Application.Main4" />
@@ -269,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660899996415</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Java Project">
+      <created>1661423479027</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1661423479027</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

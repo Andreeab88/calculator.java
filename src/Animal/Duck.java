@@ -4,6 +4,6 @@ import src.AnimalRescuer.Animal;
 
 public class Duck extends Animal {
     public void quack(){
-        System.out.println("Quack!");
+        System.out.println("Quack! Quack!");
     }
 }
