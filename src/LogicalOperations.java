@@ -553,40 +553,7 @@ public class LogicalOperations {
         return myListWithEvenNumbers;
     }
 
-
-//Scrieti o metoda Java care sa primeasca parametru o Lista nesortata, si sa returneze Lista sortata crescator.
-// Atentie, sortarea sa se faca programatic(adica logica sa fie scrisa de voi),
-// si nu folosit librarie externa, precum Collection.sort().
-
-    public List<Integer> getListSortedByBreeder(List<Integer> myUnorderedList, List<Integer> mySortedByBreederList) {
-
-
-        Collections.sort(myUnorderedList);
-
-        //for(int i=0;i<myUnorderedList.size()-1;i++){
-
-//if(myUnorderedList.get(i)< myUnorderedList.get(i+1)){
-        //  int x=myUnorderedList.get(i);
-        //  myUnorderedList.get(i).equals(myUnorderedList.get(i+1));
-        //  myUnorderedList.get(i+1).equals(x);
-        //  mySortedByBreederList.add(i);
-
-//}
-
-        // }
-//return mySortedByBreederList;
-        for (int i : myUnorderedList) {
-            mySortedByBreederList.add(i);
-
-
-        }
-
-return mySortedByBreederList;
-    }
-
 }
-
-
 
 
 
