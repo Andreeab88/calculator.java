@@ -115,7 +115,7 @@ public int[] getMyArrayOfInt(int length){
 
     public List<Integer> getTheListOfInt() {
        List<Integer> myList = new ArrayList<>();
-        //  while(true){
+
         boolean repeat;
         do {
             try {
@@ -125,30 +125,18 @@ public int[] getMyArrayOfInt(int length){
                 int size = scan.nextInt();
 
                 System.out.println("4. Please enter  a number: ");
-               // int number = scan.nextInt();
-               /// System.out.print("Enter " + myList.size() + " values: ");
                 myList.add(size);
               for (int i = 0; i < myList.size(); i++) {
 
                    myList.set(i, scan.nextInt());
 
               }
-
-                // for(int i=0; i<myArray.length; i++){
-
-                //myArray[1] = scan.nextInt();
-
-                //  }
-
-                System.out.println(myList);
-
-                repeat = false;
+              System.out.println(myList);
+              repeat = false;
             } catch (InputMismatchException exception) {
                 System.err.println("Wrong! This is not a number! ");
                 repeat = true;
             }
-            // }//while (repeat);
-
 
         } while (repeat);
         return myList;
