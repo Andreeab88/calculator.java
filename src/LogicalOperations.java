@@ -1,6 +1,7 @@
 package src;
 
 import javax.swing.*;
+import java.io.Console;
 import java.util.*;
 
 public class LogicalOperations {
@@ -551,9 +552,30 @@ public class LogicalOperations {
             }
         }
         return myListWithEvenNumbers;
+
     }
 
+    //6. In clasa LogicalOp, creati o metoda  'wait()'. Metoda sa nu returneze nimic,
+// dar sa primeasca un parametru de tip int. In interiorul ei, tratati metoda Thread.sleep(),
+// astfel incat metoda noastra sa primeasca valoarea in secunde, cat sa astepte. Ex: wait(5) -> asteapta 5 secunde.
+
+//metoda Thread.sleep() se foloseste de milisecunde pentru a astepta.
+    public void waitMethod(int x)  {
+x=7;
+
+            try {
+                System.out.println("\n 6. Hello world! ");
+                Thread.sleep(5000);
+             }catch(InterruptedException e){
+            System.out.println(e);
+
+            }
+            System.out.println(Thread.currentThread().getName() + " : " + x + " ; "); }
+
 }
+
+
+
 
 
 

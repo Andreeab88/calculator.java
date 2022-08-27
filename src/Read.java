@@ -121,11 +121,10 @@ public int[] getMyArrayOfInt(int length){
             try {
 
                 Scanner scan = new Scanner(System.in);
-                System.out.println("3. Enter the size of the list:");
-                int size = scan.nextInt();
-
-                System.out.println("4. Please enter  a number: ");
-                myList.add(size);
+                System.out.println("4. Please enter a number from list: ");
+int number = scan.nextInt();
+                System.out.println(" Please enter  a number: ");
+               myList.add(number);
               for (int i = 0; i < myList.size(); i++) {
 
                    myList.set(i, scan.nextInt());
@@ -156,7 +155,7 @@ public void getMyArray(int x){
         try{
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("Enter the array: " );
+            System.out.println("5. Enter the array: " );
             for(int i=0;i< myArray.length;i++) {
             myArray[i] = scan.nextInt();}
             System.out.println("Enter a number index: " );
@@ -177,6 +176,11 @@ public void getMyArray(int x){
             }
         }
 }
+
+
+
+
+
 
 }
 

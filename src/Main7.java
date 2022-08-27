@@ -1,5 +1,7 @@
 package src;
 
+import java.lang.reflect.Method;
+
 public class Main7 {
     public static void main(String[] args) {
 
@@ -55,6 +57,14 @@ int x = read.getInt();
         Read read6 = new Read();
 
         read6.getMyArray(x);
+
+
+   //6. In clasa LogicalOp, creati o metoda  'wait()'. Metoda sa nu returneze nimic,
+        // dar sa primeasca un parametru de tip int. In interiorul ei, tratati metoda Thread.sleep(),
+        // astfel incat metoda noastra sa primeasca valoarea in secunde,
+        // cat sa astepte. Ex: wait(5) -> asteapta 5 secunde.
+LogicalOperations op=new LogicalOperations();
+        op.waitMethod(x);
 
     }
 }
