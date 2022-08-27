@@ -1,8 +1,6 @@
 package src;
 
-import java.util.Arrays;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+import java.util.*;
 
 //1. In clasa Read, din programul vostru, creati o metoda tratat, care sa returneze un numar de la tastatura.
 
@@ -36,7 +34,7 @@ public class Read {
         do {
             try {
 
-                System.out.println("2. Please enter a float number: ");
+                System.out.println("2.a. Please enter a float number: ");
                 number = scan.nextFloat();
                 repeat=false;
             } catch (InputMismatchException exception) {
@@ -55,7 +53,7 @@ public class Read {
         do {
             try {
 
-                System.out.println("3. Please enter a double number: ");
+                System.out.println("2.b.  Please enter a double number: ");
                 number = scan.nextDouble();
                 repeat=false;
             } catch (InputMismatchException exception) {
@@ -73,7 +71,7 @@ public class Read {
       Scanner scan = new Scanner(System.in);
         do {
             try {
-                System.out.println("4. Please enter a long number: ");
+                System.out.println("2.c. Please enter a long number: ");
                 number = scan.nextLong();
                 repeat=false;
             } catch (InputMismatchException exception) {
@@ -91,14 +89,10 @@ public class Read {
 
 public int[] getMyArrayOfInt(int length){
     int [] myArray= new int[length];
-    boolean repeat;
+
     Scanner scan = new Scanner(System.in);
 
-        do {
-            try {
-
-
-                System.out.println("5. Enter the length of the array:");
+    System.out.println("3. Enter the length of the array:");
                  length = scan.nextInt();
 
                 System.out.println(" Please enter  elements of the array: ");
@@ -108,13 +102,56 @@ public int[] getMyArrayOfInt(int length){
                     myArray[i] = scan.nextInt();
                 }
                 System.out.println(Arrays.toString(myArray));
-                repeat=false;
+
+                return myArray;
+
+    }
+
+
+//4. In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
+// Metoda nu va primi parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
+// (Hint: a se citi de la tastatura atata timp cat valoarea primita e numar,
+// cand nu mai e numar, sa se intrerupa citirea)
+
+    public List<Integer> getTheListOfInt() {
+       List<Integer> myList = new ArrayList<>();
+        //  while(true){
+        boolean repeat;
+        do {
+            try {
+
+                Scanner scan = new Scanner(System.in);
+                System.out.println("3. Enter the size of the list:");
+                int size = scan.nextInt();
+
+                System.out.println("4. Please enter  a number: ");
+               // int number = scan.nextInt();
+               /// System.out.print("Enter " + myList.size() + " values: ");
+                myList.add(size);
+              for (int i = 0; i < myList.size(); i++) {
+
+                   myList.set(i, scan.nextInt());
+
+              }
+
+                // for(int i=0; i<myArray.length; i++){
+
+                //myArray[1] = scan.nextInt();
+
+                //  }
+
+                System.out.println(myList);
+
+                repeat = false;
             } catch (InputMismatchException exception) {
-                System.err.println("Wrong! This is not a array! " + scan.next());
-               repeat=true;
+                System.err.println("Wrong! This is not a number! ");
+                repeat = true;
             }
-        }while (repeat);
-    return myArray;
+            // }//while (repeat);
+
+
+        } while (repeat);
+        return myList;
 
     }
 

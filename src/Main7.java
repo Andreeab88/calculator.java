@@ -36,5 +36,14 @@ int x = read.getInt();
     read4.getMyArrayOfInt(args.length);
 
 
+    //In clasa Read, creati o metoda care sa returneze o lista de numere populate de la tastatura.
+        // Metoda nu v-a primii parametru lungimea. In rezolvarea ei trebuie folosit try-catch.
+        // (Hint: a se citi de la tastatura atata timp cat valoarea primita e numar,
+        // cand nu mai e numar, sa se intrerupa citirea)
+
+        Read read5 = new Read();
+
+           read5.getTheListOfInt();
+
     }
 }
