@@ -143,6 +143,41 @@ public int[] getMyArrayOfInt(int length){
 
     }
 
+
+//5. In clasa LogicalOp, creati o metoda care sa primeasca un array de numere ca si parametru, si un numar.
+// Fara a folosi conditii, si folosind un try-catch, afisati valoarea de pe pozitia numarului primit,
+// iar daca valoarea numarului este mai mare decat numarul de pozitii din array,
+// afisati textul: "Inside catch, number too large".
+
+
+public void getMyArray(int x){
+    int[] myArray=new int[5];
+
+        try{
+            Scanner scan = new Scanner(System.in);
+
+            System.out.println("Enter the array: " );
+            for(int i=0;i< myArray.length;i++) {
+            myArray[i] = scan.nextInt();}
+            System.out.println("Enter a number index: " );
+            x = scan.nextInt();
+
+            System.out.println("The index value of the received number is: " );
+
+            System.out.println(myArray[x]);
+
+            }
+
+            catch (ArrayIndexOutOfBoundsException exception){
+
+                if (x > myArray.length) {
+                    System.err.println("Number too large!!!");
+
+
+            }
+        }
+}
+
 }
 
 
