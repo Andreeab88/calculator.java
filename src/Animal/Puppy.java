@@ -8,12 +8,31 @@ public class Puppy extends Animal {
     //    numele activității de recreere preferate
 
 
-    public void jogging() {
-        System.out.println("Run in the morning.");
-    }
-    public void walk(){
-        System.out.println("Go to a walk.");
+
+
+    @Override
+    public void speak() {
+        System.out.println("Ham! Ham!");
     }
 
+    @Override
+    public void run() {
+        System.out.println("Run in the morning.");
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("The dog eat dog food.");
+    }
+
+    @Override
+    public void play() {
+
+    }
 }
 

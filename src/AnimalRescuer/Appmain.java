@@ -20,14 +20,14 @@ public class Appmain {
 Puppy Labus = new Puppy();
         Labus.setName("Labus");
 System.out.println(Labus.getName());
-Labus.jogging();
-        Labus.walk();
+Labus.run();
+        Labus.eat();
 
         Puppy Grivey = new Puppy();
         Grivey.setName ("\nGrivey");
         System.out.println(Grivey.getName());
-        Grivey.walk();
-        Grivey.jogging();
+        Grivey.run();
+        Grivey.sleep();
 
         Cat Felix = new Cat();
         Felix.setName("\nFelix");
@@ -37,12 +37,12 @@ Labus.jogging();
         Mouse Mouse= new Mouse();
         Mouse.setName("\nMouse");
         System.out.println(Mouse.getName());
-        Mouse.squeak();
+        Mouse.speak();
 
         Duck Ducky= new Duck();
         Ducky.setName("\nDucky");
         System.out.println(Ducky.getName());
-        Ducky.quack();
+        Ducky.speak();
 
 FoodForDog Bella = new FoodForDog();
         Bella.moneyForDogFood();

@@ -1,6 +1,6 @@
 package src.AnimalRescuer;
 
-public class Animal {
+public abstract class Animal {
     private String name;
     private int age;
     private int theLevelOfHealth;
@@ -68,6 +68,13 @@ public class Animal {
         this.favoriteRecreationalActivity = favoriteRecreationalActivity;
     }
 
+
+public abstract void speak();
+    public abstract void run();
+    public abstract void sleep();
+    public abstract void eat();
+
+    public abstract void play();
 }
 
 
